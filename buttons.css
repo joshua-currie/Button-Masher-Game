@@ -1,0 +1,70 @@
+#store-B1,
+#store-B2,
+#store-B3,
+#store-B4,
+#store-B5,
+#store-B6,
+#store-B7,
+#store-B8
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    border-width: 10px;
+}
+
+.B1-design
+{
+    background-image: url(./button-images/button1.jpg);
+    border-color: rgb(255, 147, 223);
+    background-size: cover;
+}
+
+.B2-design
+{
+    background-image: url(./button-images/button2.jpg);
+    border-color: rgb(38, 192, 133);
+    background-size: cover;
+}
+
+.B3-design
+{
+    background-image: url(./button-images/button3.jpg);
+    border-color: rgb(253, 114, 0);
+    background-size: cover;
+}
+
+.B4-design
+{
+    background-image: url(./button-images/button4.jpg);
+    border-color: rgb(26, 62, 66);
+    background-size: cover;
+}
+
+.B5-design
+{
+    background-image: url(./button-images/button5.jpg);
+    border-color: rgb(255, 0, 21);
+    background-size: cover;
+}
+
+.B6-design
+{
+    background-image: url(./button-images/button6.jpg);
+    border-color: rgb(94, 97, 255);
+    background-size: cover;
+}
+
+.B7-design
+{
+    background-image: url(./button-images/button7.jpg);
+    border-color: rgb(255, 217, 0);
+    background-size: cover;
+}
+
+.B8-design
+{
+    background-image: url(./button-images/button8.jpg);
+    border-color: rgb(204, 0, 255);
+    background-size: cover;
+}

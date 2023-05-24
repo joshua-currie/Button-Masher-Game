@@ -1,0 +1,57 @@
+body
+{
+    background-color: black;
+    color: orange;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 48px;
+}
+
+.button-info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.store
+{
+    height: 1000px;
+    width: 1600px;
+    border: solid;
+    border-radius: 60px;
+    background-color: rgb(90, 20, 20);
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-achievements
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 100px;
+}
+
+#store-external-buttons
+{
+    display: flex;
+    justify-content: center;
+}
+
+#store-external-buttons button
+{
+    background-color: orange;
+    font-size: 24px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin: 30px;
+}
+ 

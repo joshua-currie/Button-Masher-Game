@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Log in</title>
+        <link rel="stylesheet" href="login.css">
+        <script src="script.js" type="module" defer></script>
+    </head>
+
+    <body>
+        <h1>The Amazing Button Masher Website</h1>
+        <h2>By Joshua Currie</h2>
+
+        <div class="login-container">
+            <br><br>
+            <h4>Have an account already?</h4>
+            <p>Enter your Username and Password here</p>
+            <input class="inputfield" type="text" id="login-username-input" placeholder="Username">
+            <input class="inputfield" type="text" id="login-password-input" placeholder="Password">
+            <button id="login-button">Log in</button>
+            <br><br>
+
+            <h4>Don't have an Account?</h4>
+            <p>Create a Username and Password with here</p>
+            <input class="inputfield" type="text" id="signup-username-input"  placeholder="Create Username">
+            <input class="inputfield" type="text" id="signup-password-input"  placeholder="Create Password">
+            <button id="signup-button">Sign up</button>
+            <br>
+
+            <div class="password-note">
+                <p>Please make a strong password with the following criteria:</p>
+                <p>- At least 8 characters long</p>
+                <p>- At least one uppercase and one lowercase letter</p>
+                <p>- At least one number</p>
+                <p>- At least one special character</p>
+
+                <p>NOTE: I have not implemented a way to verify if your password matches the above requirements.</p>
+                <p>Therefore your password can techincally be anything you want it to be.</p>
+            </div>
+            <br><br>
+
+            <h4>Forgot Password?</h4>
+            <a href="./password.html">
+                <button>I forgot</button>
+            </a>
+        </div>
+    </body>
+</html>
